@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS101 Playground</title>
+
+  
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Prism.js -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+
+
+  <!-- CodeMirror Core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/codemirror.min.css">
+  <!-- CodeMirror Theme -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/theme/dracula.min.css">
+
+  <!-- CodeMirror JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/addon/edit/closebrackets.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/addon/edit/matchbrackets.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/addon/display/placeholder.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <div class="hContainer">
+          <div class="logo">JS</div>
+          <h1>JS101 with <span>{CodeWithKhofi}</span></h1>
+        </div>
+        <div class="lightbulb">💡</div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Challenge Box -->
+      <section class="challenge-box">
+        <div class="challenge-header">
+          <div class="category-tag">Category: <span class="category">Variables</span></div>
+          <h2 class="title">Challenge 1: Write Your First console.log()</h2>
+          <p class="description">
+            In JavaScript, you can make your computer ‘talk’ using
+            <code>console.log()</code>. Try it out!
+          </p>
+        </div>
+
+        <!-- Example Section -->
+        <div class="example">
+          <p><span class="comment">// Example</span></p>
+          <pre><code class="language-javascript example-code">console.log("Hello, JS101!")</code></pre>
+
+          <p class="expected-output"><span class="comment">// Output: Hello, JS101!</span></p>
+        </div>
+
+        <!-- Starter Code Section -->
+        <div class="starter">
+          <p><span class="comment">// Starter Code</span></p>
+          <pre class="starter-code"><code>// Try starting from here...</code></pre>
+        </div>
+
+        <!-- Hint Section -->
+        <div class="hint-section">
+          <button id="hint-btn" class="hint-btn">💡 Show Hint</button>
+          <p class="hint-text" style="display:none;">Hints will appear here...</p>
+        </div>
+
+        <!-- Code Editor Area -->
+        <div class="editor">
+          <div class="editor-header">
+            <div class="circle red"></div>
+            <div class="circle yellow"></div>
+            <div class="circle green"></div>
+          </div>
+          <textarea id="codeEditor">// Type your code here...</textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="btns">
+          <button class="run" id="run-btn">Run Code</button>
+          <button class="next">Next Challenge</button>
+        </div>
+
+        <!-- Output Area -->
+        <pre id="outputBox" class="example" style="margin-top:15px;"></pre>
+      </section>
+
+      <!-- Episodes List -->
+      <aside class="episodes">
+        <h3>Episodes</h3>
+        <ul>
+          <li class="active episode-btn">1</li>
+          <li class="episode-btn">2</li>
+          <li class="episode-btn">3</li>
+          <li class="episode-btn">4</li>
+          <li class="episode-btn">5</li>
+          <li class="episode-btn">6</li>
+          <li class="episode-btn">7</li>
+          <li class="episode-btn">8</li>
+          <li class="episode-btn">9</li>
+          <li class="episode-btn">10</li>
+          <li class="episode-btn">11</li>
+          <li class="episode-btn">12</li>
+          <li class="episode-btn">13</li>
+          <li class="episode-btn">14</li>
+          <li class="episode-btn">15</li>
+          <li class="episode-btn">16</li>
+          <li class="episode-btn">17</li>
+          <li class="episode-btn">18</li>
+          <li class="episode-btn">19</li>
+          <li class="episode-btn">20</li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+
+  <script src="editor.js"></script>
+</body>
+</html>

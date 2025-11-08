@@ -1,0 +1,64 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "title": "Your First console.log()",
+      "category": "Basics",
+      "description": "Let's begin your JavaScript journey! In JavaScript, you can make your computer 'talk' using console.log(). Try printing your first message to the console.",
+      "exampleCode": "console.log('Hello, JS101!');",
+      "starterCode": "// TODO: Write your first message below\n",
+      "expectedOutput": "Hello, JS101!",
+      "hint": "Use console.log() and wrap your message in quotes. Example: console.log('Hi there!');"
+    },
+    {
+      "id": 2,
+      "title": "Welcome Variables",
+      "category": "Variables",
+      "description": "Variables help us store information for later use. Create two variables, 'firstName' and 'age'. Then print: 'Hi, my name is ___ and I am ___ years old.'",
+      "exampleCode": "let name = 'Lily';\n let age = 25;\n console.log('Hi, my name is ' + name + ' and I am ' + age + ' years old.');",
+      "starterCode": "// TODO: Declare two variables here\n\n// Print your message below\n",
+      "expectedOutput": "Hi, my name is Khofi and I am 20 years old.",
+      "hint": "Remember: Use the '+' operator to join (concatenate) text and variables together."
+    },
+    {
+      "id": 3,
+      "title": "Math with Operators",
+      "category": "Math",
+      "description": "Let’s do some quick math! Create two numbers called 'x' and 'y'. Then print their sum, difference, product, and quotient — each on a new line.",
+      "exampleCode": "let x = 8;\n let y = 4;\n console.log('Addition:', x + y);",
+      "starterCode": "// TODO: Declare your numbers here\n\n// Perform addition, subtraction, multiplication, and division\n",
+      "expectedOutput": "Addition: 15\nSubtraction: 5\nMultiplication: 50\nDivision: 2",
+      "hint": "Use +, -, * and / operators for math. Example: console.log('Addition:', x + y);"
+    },
+    {
+      "id": 4,
+      "title": "Decision Maker",
+      "category": "Conditional Statements",
+      "description": "Make your program think! Create a variable 'score'. If it’s 50 or higher, print 'You passed!'. Otherwise, print 'Try again!'.",
+      "exampleCode": "if (score >= 50) {\n   console.log('You passed!');\n } else {\n   console.log('Try again!');\n }",
+      "starterCode": "// TODO: Write your if...else condition here\n",
+      "expectedOutput": "You passed!",
+      "hint": "Start with 'if (score >= 50)' then use 'else' for the other case."
+    },
+    {
+      "id": 5,
+      "title": "Loop the Numbers",
+      "category": "Loops",
+      "description": "Loops repeat tasks for you. Write a loop that prints all numbers from 1 to 10. Then modify it to print only even numbers.",
+      "exampleCode": "for (let i = 1; i <= 10; i++) {\n   console.log(i);\n }",
+      "starterCode": "// TODO: Write your loop here\n\n// Bonus: Add a condition to print only even numbers\n",
+      "expectedOutput": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n// Even numbers:\n2\n4\n6\n8\n10",
+      "hint": "Remember the modulo operator (%). Example: if (i % 2 === 0)"
+    },
+    {
+      "id": 6,
+      "title": "Function Greetings",
+      "category": "Functions",
+      "description": "Functions are reusable blocks of code. Create one called 'greetUser' that takes 'name' as a parameter and prints 'Hello, [name]!'.",
+      "exampleCode": "function greetUser(name) {\n   console.log('Hello, ' + name + '!');\n }",
+      "starterCode": "// TODO: Define your function below\n\n// Call your function here\n",
+      "expectedOutput": "Hello, Khofi!",
+      "hint": "Remember to define with function keyword and call it using parentheses."
+    }
+  ]
+}
